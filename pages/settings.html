@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Settings | Jet Yeh's</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../css/blogDexStyle.css">
+      <link rel="stylesheet" href="../css/seasonal.css">
+      <link rel="stylesheet" href="../css/particles.css">
+      <link rel='icon' href="../img/favicon-32x32.png">
+   </head>
+   <body>
+      <div id="particles-js"></div>
+      <div id="loading-bar"></div>
+      <div class="wrapper">
+         <div class="sidebar">
+            <h2>Jet Yeh's</h2>
+            <ul>
+               <a href="../index.html">
+                  <li><i class="fa-solid fa-house"></i> Home</li>
+               </a>
+               <a href="report.html">
+                  <li><i class="fa-solid fa-bug"></i> Bug Report</li>
+               </a>
+               <a href="request.html">
+                  <li><i class="fa-solid fa-ghost"></i> Game Request</li>
+               </a>
+               <a href="settings.html">
+                  <li class="selectedButton"><i class="fa-solid fa-gear"></i> Settings</li>
+               </a>
+               <a>
+                  <li id="go-to-top-button"><i class="fa-solid fa-up-long"></i> Top</li>
+               </a>
+            </ul>
+            <div class="left-col">
+               <img title="icon" src="../img/icon.png" width="199px">
+            </div>
+         </div>
+      </div>
+      <div class="main_content">
+         <h1>
+            <div class="title">
+               Settings
+            </div>
+         </h1>
+         <div class="main">
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+               <div class="settings-column">
+                  <div class="settings-content">
+                    <input id="christmas-theme-toggle" type="checkbox">
+                    <label for="christmas-theme-toggle">
+                      Seasonal Theme
+                    </label>
+                  </div>
+                </div>
+                <div class="settings-column">
+                  <div class="settings-content">
+                    <label for="upload-background">
+                      Upload your own background (WIP)
+                    </label>
+                    <input id="upload-background" type="file" accept="image/*">
+                  </div>
+                </div>
+                <div class="settings-column">
+                  <div class="settings-content">
+                    <input type="checkbox">
+                    <label for="google-classroom-disguise">
+                      Google Classroom Disguise (WIP)
+                    </label>
+                  </div>
+                </div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="../js/main.js"></script>
+      <script type="text/javascript" src="../js/particles.js"></script>
+      <script type="text/javascript" src="../js/seasonal.js"></script>
+   </body>
+</html>
